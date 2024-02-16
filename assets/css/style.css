@@ -12,6 +12,10 @@ body{
     font-size: 1rem;
 }
 
+.navbar.scrolled{
+    background-color: #0DCAF0 !important ;
+}
+
 .imagenNav{
     width: 1.56rem;
 }

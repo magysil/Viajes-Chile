@@ -27,9 +27,9 @@ $(document).ready(function () {
         {
           scrollTop: $(hash).offset().top,
         },
-        100,
+        2000,
         function () {}
-      );
-    }
-  });
-});
+        );
+        }
+    });
+    });
