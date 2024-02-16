@@ -20,3 +20,7 @@ body{
 .estiloUl{
     list-style: none;
 }
+
+.navbar.scrolled{
+    background-color: aqua !important ;
+}
