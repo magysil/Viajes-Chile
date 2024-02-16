@@ -35,10 +35,10 @@
           <div class="menuNavbar navbar-nav ms-md-auto">
             <a class="nav-link active text-white mx-3" aria-current="page" href="#" target="_self"
               title="Ir a la página acerca de Inicio">Inicio</a>
-            <a class="nav-link text-white mx-3" href="#" target="_self" title="Ver Recetas">Quienes Somos</a>
-            <a class="nav-link text-white mx-3" href="#" target="_self"
+            <a class="nav-link text-white mx-3" href="#quienesSomos" target="_self" title="Ver Recetas">Quienes Somos</a>
+            <a class="nav-link text-white mx-3" href="#destacados" target="_self"
               title="Ir a página acerga de nosotros">Destacados</a>
-            <a class="nav-link text-white mx-3" href="#" target="_self" title="Contactar">Contacto</a>
+            <a class="nav-link text-white mx-3" href="#contacto" target="_self" title="Contactar">Contacto</a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@
   <main>
 
     <!-- Inicio Sección Quienes Somos -->
-    <section>
+    <section id="quienesSomos">
       <div class="container d-none d-sm-none d-md-block">
         <h2 class="text-light text-center pt-5 fw-bold fs-3">¿QUIÉNES SOMOS?</h2>
         <hr>
@@ -120,7 +120,7 @@
     <!-- Fin Sección Quienes Somos -->
 
     <!-- Inicio Sección Destacados -->
-    <section>
+    <section id="destacados">
       <div class="container">
         <h2 class="text-light text-center pt-5 fw-bold fs-3">DESTACADOS</h2>
         <hr>
@@ -182,7 +182,7 @@
     <!-- Fin Sección Destacados -->
 
     <!-- Inicio Sección Contacto -->
-    <section>
+    <section id="contacto">
       <div class="container">
         <h2 class="text-light text-center pt-5 fw-bold fs-3">CONTACTO</h2>
         <hr>
@@ -203,7 +203,7 @@
           </div>
 
           <div class="text-start">
-            <button type="submit" class="btn btn-info text-white px-4 mb-5">Enviar</button>
+            <button id="enviarCorreo" type="button" class="btn btn-info text-light px-4 mb-5" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Presiona para enviar correo">Enviar</button>
           </div>
         </form>
       </div>
