@@ -6,11 +6,17 @@ body{
     background-color: #000;
 }
 
+/* Navbar*/
 .navbar-brand{
     font-weight: 400 !important;
     font-size: 1rem;
 }
 
+.imagenNav{
+    width: 1.56rem;
+}
+
+/*Footer*/
 .estiloUl{
     list-style: none;
 }
