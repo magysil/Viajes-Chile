@@ -27,7 +27,7 @@ const tooltipTriggerList = document.querySelectorAll(
           {
             scrollTop: $(hash).offset().top,
           },
-          500,
+          3000,
           function () {}
         );
       }
