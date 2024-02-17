@@ -33,10 +33,10 @@ const tooltipTriggerList = document.querySelectorAll(
       }
     });
   
-    // Cambia el background del nav cuando el scroll se mueva mas de 500px
+    // Cambia el background del nav cuando el scroll se mueva mas de 200px
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
-      if (scroll > 500) {
+      if (scroll > 200) {
         $("nav").addClass("scrolled");
       } else {
         $("nav").removeClass("scrolled");
